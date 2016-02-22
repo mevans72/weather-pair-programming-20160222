@@ -5,18 +5,210 @@
 
   <!-- <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
   <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css"> -->
-  <link type="text/css" rel="stylesheet" href="weather-stylesheet.css" />
+  <!-- <link type="text/css" rel="stylesheet" href="weather-stylesheet.css" /> -->
 
   <title id="weather-home" class="weather-home">National Weather Service</title>
 </head>
+
 <body>
 
-<!--Beign HTML Here-->
-<img src="header_nws.png"/>
-<img src="assets/header_noaa.png"/>
-<img id='title-img' src="header_nws.png" alt="Salmon">
+  <!--Beign HTML Here-->
+  <div class="header">
+    <div class="header-content">
+      <img src="assets/header_noaa.png" alt="header_now_">
+      <img src="assets/header_nws.png">
+      <img src="assets/header_doc.png">
+    </div>
+  </div>
 
+  <div class='nav-bar'>
+    <ul id="nav-bar">
+      <li>Home</li>
+      <li>Forecast</li>
+      <li>Past Weather</li>
+      <li>Safety</li>
+      <li>Information</li>
+      <li>Education</li>
+      <li>News</li>
+      <li>Search</li>
+      <li>About</li>
+    </ul>
+  </div>
 
+  <div class='description-section'>
+    <div class='zip-search'>
+      <form name="getForecast" class="form">
+        <input name="inputstring" type="text" placeholder="">
+        <input name="btnSearch" class="btn btn-default" type="submit" value="Go">
+        <div><a href="#">View Location Examples</a></div>
+    </div>
+    <div>
+      <div style="display:none;">Sorry, the location you searched for was not found. Please try another search.</div>
+      <div style="display:none">Multiple locations were found. Please select one of the following:</div>
+      <div style="display:none"></div>
+      <input type="button" value="Close" style="display:none">
+    </div>
+    <div>
+      <p>Your local forecast office is</p>
+      <h3><a>Seattle, WA</a></h3>
+    </div>
+    </form>
+  </div>
+  </div>
+  <div class='top-news'>
+    <h3>Rain, thunderstorms developing from southern Plains to mid-Atlantic</h3>
+
+    <p>A slow-moving storm system will be the focus for rain and thunderstorms from the southern Plains across to the Southeast and Mid-Atlantic States early this week. Locally heavy rainfall could lead to isolated flash flooding, especially in the mid-Mississippi
+      River Valley on Tuesday. Isolated severe thunderstorms will be possible Tuesday near the Gulf Coast associated with this same storm system.</p>
+  </div>
+  <div class='socia-media-buttons'>
+    <a href="#">El Espanol</a>
+    <img class='share-icon'>
+    <a href="#">Share</a>
+    <img class='facebook-icon'>
+    <img class='twitter-icon'>
+    <img class='mailto-icon'>
+    <img class='print-icon'>
+    <img class='gmail-icon'>
+  </div>
+  </div>
+
+  <div class='current-conditions-section'>
+    <div class='current-conditions-bar'>
+      <ul>
+        <li>Current conditions at</li>
+        <li>Seattle, Seattle Boeing Field (KBFI)</li>
+        <li>Lat: 47.57°NLon: -122.41°WElev: 16ft.</li>
+      </ul>
+    </div>
+
+    <div class='current-forecast'>
+      <div class='current-forecast-today'>
+        <img src="assets/a-few-clouds.png">
+        <ul>
+          <li>A few cloud</li>
+          <li>45°F</li>
+          <li>7°C</li>
+        </ul>
+      </div>
+      <div class='current-forecast-details'>
+        <ul>
+          <li>Humidity 9o%</li>
+          <li>Wind Speed SSE 8 MPH</li>
+          <li>Barometer 30.34 in</li>
+          <li>Dewpoint 42°F (6°C)</li>
+          <li>Visibility 10.00 mi</li>
+          <li>Wind Chill 41°F (5°C)</li>
+          <li>Last update 21 Feb 9:53 pm PST</li>
+        </ul>
+      </div>
+      <div class='current-forecast-links'>
+        <ul>
+          <li a href='#'>More Information:</a>
+          </li>
+          <li a href='#'>Local Forecast Office</a>
+          </li>
+          <li a href='#'>More Local Wx</a>
+          </li>
+          <li a href='#'>3 Day History</a>
+          </li>
+          <li a href='#'>Mobile Weather</a>
+          </li>
+          <li a href='#'>Hourly Weather Forecast</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+  <div class='extended-forcast-section'>
+
+    <div class='extended-forcast-bar'>
+      <ul>
+        <li>Extended Forecast by</li>
+        <li>2 Miles NW West Seattle WA</li>
+      </ul>
+    </div>
+
+    <div class='extended-forcast-daily'>
+      <div class='extended-forcast-today'>
+        <ul>
+          <li>Tonight</li>
+          <img src='assets/nshra60.png'>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+      <div class='extended-forcast-monday'>
+        <ul>
+          <li>Monday</li>
+          <img src='assets/DualImage.png'>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+      <div class='extended-forcast-monday-night'>
+        <ul>
+          <li>Monday Night</li>
+          <img src='assets/a-few-clouds.png'>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+      <div class='extended-forcast-bar-tuesday'>
+        <ul>
+          <li>Tuesday</li>
+          <img src='assets/few.png'>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+      <div class='extended-forcast-bar-tuesday-night'>
+        <ul>
+          <li>Tuesday Night</li>
+          <img src='assets/a-few-clouds.png'>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+      <div class='extended-forcast-bar-wednesday'>
+        <ul>
+          <li>Wednesday</li>
+          <img src='assets/sct.png'>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+      <div class='extended-forcast-bar-wednesday-night'>
+        <ul>
+          <li>Wednesday Night</li>
+          <img src='assets/bkn.png'>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+      <div class='extended-forcast-bar-thursday'>
+        <ul>
+          <li>Thursday</li>
+          <img src='assets/sct.png'>
+          <li></li>
+          <li></li>
+        </ul>
+
+        <div class='extended-forcast-bar-thursday-night'>
+          <ul>
+            <li>Thursday Night</li>
+            <img src='assets/a-few-clouds.png'>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+
+        </ul>
+      </div>
+    </div>
+  </div>
   <!-- <script src="app-data.js"></script> -->
   <!-- <script src="app.js"></script> -->
 </body>
