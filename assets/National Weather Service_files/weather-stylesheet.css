@@ -27,53 +27,17 @@
   background-color: blue;
 }*/
 
-body {
-  width: 960px;
-  margin: 0 auto;
-
-}
-
-li {
-  list-style-type: none;
-}
-
-.dropdown {
-  button: class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown";
-}
-
 * {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-.current-forecast, .extended-forcast-daily, .description-section {
+.current-forecast {
   display: flex;
   justify-content: space-between;
 
 }
 
-.float-right {
-float: right;
-}
-
-.header-content {
-  width: 100%;
-}
-
-.extended-forcast-daily img {
-  height: 50px;
-  width: 50px;
-}
-
-.extended-forcast-daily li {
-font-size: 12px}
-
-.extended-forcast-daily {
-margin: 0px;
-/*width: 300px;*/
-
-}
-
-.form, .form-radius {
+.form {
   border-radius: 5px;
 }
 .description-section {
