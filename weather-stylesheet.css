@@ -1,0 +1,136 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url('fonts/icomoon.eot');
+  src: url('fonts/icomoon.eot?#iefix') format('embedded-opentype'), url('fonts/icomoon.woff') format('woff'), url('fonts/icomoon.ttf') format('truetype'), url('fonts/icomoon.svg#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/** {
+  border: 1px dashed blue;
+}*/
+
+
+/*body {
+  background-color: #C5E5F5;
+  border: 1px dashed blue;
+}*/
+
+
+/*.center-content{
+  background-color: #FFFFFF;
+}*/
+
+
+/*.no-margin {
+  margin-top: 0px;
+  background-color: blue;
+}*/
+
+body {
+  width: 960px;
+  margin: 0 auto;
+
+}
+
+li {
+  list-style-type: none;
+}
+
+.font-42px {
+  font-size: 42px;
+}
+
+.dropdown {
+  button: class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown";
+}
+
+* {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.current-forecast, .extended-forcast-daily, .description-section {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.inline-block {
+  display: inline-block;
+  margin-left: 0px;
+  margin-top: 0px;
+  padding-left: 0px;
+
+}
+
+.bottom-margin-zero {
+  margin-bottom: 20px;
+}
+
+.float-right {
+float: right;
+}
+
+.header-content {
+  width: 100%;
+}
+
+.extended-forcast-daily img {
+  height: 50px;
+  width: 50px;
+}
+
+.extended-forcast-daily li {
+font-size: 12px}
+
+.extended-forcast-daily {
+margin: 0px;
+/*width: 300px;*/
+
+}
+
+.form, .form-radius {
+  border-radius: 5px;
+}
+.description-section {
+  display: inline;
+}
+.navigation, .current-conditions-bar, .extended-forcast-bar, ul.current-conditions-bar {
+  background-color: #F4F4F4;
+}
+.navigation li {
+  color: #757575;
+}
+.seattle-color {
+  color: #4687BF;
+}
+.header-content, .description-section, .top-news, .current-conditions-section, .current-forecast, .current-forecast-details, .current-forecast-links, .extended-forcast-section {
+  background-color: #FFFFFF;
+}
+
+.center-content {
+  background-color: #FFFFFF;
+}
+
+body {
+  background-color: #c5e5f5;
+}
+.current-conditions-section, .extended-forcast-section {
+  border: 2px solid #F4F4F4;
+  border-radius: 5px;
+  margin: 5px 5px 5px 5px;
+}
+
+/* Large */
+
+.navigation li {
+  /*display: flex;
+  flex-flow: row wrap;
+  /* This aligns items to the end line on main-axis */
+  /*justify-content: flex-start;*/
+  display: inline;
+  text-transform: uppercase;
+}
+/** {
+  flex-wrap: nowrap | wrap | wrap-reverse;
+}*/
