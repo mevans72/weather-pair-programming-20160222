@@ -37,6 +37,10 @@ li {
   list-style-type: none;
 }
 
+.font-42px {
+  font-size: 42px;
+}
+
 .dropdown {
   button: class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown";
 }
@@ -49,6 +53,18 @@ li {
   display: flex;
   justify-content: space-between;
 
+}
+
+.inline-block {
+  display: inline-block;
+  margin-left: 0px;
+  margin-top: 0px;
+  padding-left: 0px;
+
+}
+
+.bottom-margin-zero {
+  margin-bottom: 20px;
 }
 
 .float-right {
@@ -90,6 +106,14 @@ margin: 0px;
 }
 .header-content, .description-section, .top-news, .current-conditions-section, .current-forecast, .current-forecast-details, .current-forecast-links, .extended-forcast-section {
   background-color: #FFFFFF;
+}
+
+.center-content {
+  background-color: #FFFFFF;
+}
+
+body {
+  background-color: #c5e5f5;
 }
 .current-conditions-section, .extended-forcast-section {
   border: 2px solid #F4F4F4;

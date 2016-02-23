@@ -3,8 +3,8 @@
 
 <head>
   <link type="text/css" rel="stylesheet" href="normalize.css" />
-  <!-- <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
-  <link rel="stylesheet" --> href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+  <!-- <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">-->
+  <link rel="stylesheet" --> <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
   <link type="text/css" rel="stylesheet" href="weather-stylesheet.css" />
 
   <title id="weather-home" class="weather-home">National Weather Service</title>
@@ -23,7 +23,7 @@
     </div>
 
     <div class='navigation' class='dropdown'>
-      <ul class="navigation" class='dropdown-menu'>
+      <ul class="navigation">
         <li>Home</li>
         <li class='dropdown'>Forecast</li>
         <li class='dropdown'>Past Weather</li>
@@ -72,7 +72,7 @@
     <img class='print-icon'>
     <img class='gmail-icon'>
   </div>
-  </div>
+
 
   <div class='current-conditions-section'>
     <div class='current-conditions-bar'>
@@ -85,13 +85,15 @@
 
     <div class='current-forecast-section'>
       <div class='current-forecast'>
+        <div class='current-forecast-today-section'>
         <div class='current-forecast-today'>
-          <img src="assets/a-few-clouds.png">
-          <ul>
+          <img src="assets/a-few-clouds.png" class='inline-block'>
+          <ul class='inline-block'>
             <li>A few cloud</li>
-            <li>45 F</li>
-            <li>7 C</li>
+            <li class='font-42px'>45 F</li>
+            <li class='bottom-margin-zero'>7 C</li>
           </ul>
+        </div>
         </div>
         <div class='current-forecast-details'>
           <ul>
@@ -213,6 +215,8 @@
     </div>
   </div>
   </div>
+
+
   <!-- <script src="app-data.js"></script> -->
   <!-- <script src="app.js"></script> -->
 </body>
